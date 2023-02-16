@@ -1,4 +1,4 @@
-import { defaultConfig } from "@changesets/config";
+import { defaultConfig } from "@cosm-changesets/config";
 import assembleReleasePlan from "./";
 import FakeFullState from "./test-utils";
 

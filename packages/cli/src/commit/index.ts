@@ -1,4 +1,8 @@
-import { Changeset, CommitFunctions, ReleasePlan } from "@changesets/types";
+import {
+  Changeset,
+  CommitFunctions,
+  ReleasePlan,
+} from "@cosm-changesets/types";
 import outdent from "outdent";
 
 type SkipCI = boolean | "add" | "version";

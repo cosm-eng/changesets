@@ -1,4 +1,4 @@
-import { Config } from "@changesets/types";
+import { Config } from "@cosm-changesets/types";
 import { Package } from "@manypkg/get-packages";
 import { InternalRelease } from "./types";
 import { getCurrentHighestVersion, getHighestReleaseType } from "./utils";

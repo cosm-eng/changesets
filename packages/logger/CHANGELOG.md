@@ -1,4 +1,4 @@
-# @changesets/logger
+# @cosm-changesets/logger
 
 ## 0.0.5
 
@@ -23,7 +23,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`8f0a1ef`](https://github.com/changesets/changesets/commit/8f0a1ef327563512f471677ef0ca99d30da009c0)]:
-  - @changesets/types@0.4.0
+  - @cosm-changesets/types@0.4.0
 
 ## 0.0.1
 
@@ -32,4 +32,4 @@
 - [`51a0d76`](https://github.com/changesets/changesets/commit/51a0d766c7064b4c6a9d1490593522c6fcd02929) [#182](https://github.com/changesets/changesets/pull/182) Thanks [@ajaymathur](https://github.com/ajaymathur)! - - Initial release of the package.
 
 - Updated dependencies [[`a679b1d`](https://github.com/changesets/changesets/commit/a679b1dcdcb56652d31536e2d6326ba02a9dfe62)]:
-  - @changesets/types@0.3.1
+  - @cosm-changesets/types@0.3.1

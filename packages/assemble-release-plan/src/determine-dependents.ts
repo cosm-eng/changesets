@@ -4,7 +4,7 @@ import {
   PackageJSON,
   VersionType,
   Config,
-} from "@changesets/types";
+} from "@cosm-changesets/types";
 import { Package } from "@manypkg/get-packages";
 import { InternalRelease, PreInfo } from "./types";
 import { incrementVersion } from "./increment";

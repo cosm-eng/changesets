@@ -123,7 +123,7 @@ export async function runVersion({
     let changesetsCliPkgJson = await require(path.join(
       cwd,
       "node_modules",
-      "@changesets",
+      "@cosm-changesets",
       "cli",
       "package.json"
     ));
@@ -132,7 +132,7 @@ export async function runVersion({
       : "version";
     await execWithOutput(
       "node",
-      ["./node_modules/@changesets/cli/bin.js", cmd],
+      ["./node_modules/@cosm-changesets/cli/bin.js", cmd],
       { cwd }
     );
   }

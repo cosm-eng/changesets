@@ -1,6 +1,6 @@
-import { ExitError } from "@changesets/errors";
-import { error, info, warn } from "@changesets/logger";
-import { PackageJSON } from "@changesets/types";
+import { ExitError } from "@cosm-changesets/errors";
+import { error, info, warn } from "@cosm-changesets/logger";
+import { PackageJSON } from "@cosm-changesets/types";
 import pLimit from "p-limit";
 import preferredPM from "preferred-pm";
 import chalk from "chalk";

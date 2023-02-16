@@ -1,15 +1,15 @@
-# @changesets/parse
+# @cosm-changesets/parse
 
-[![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@changesets/parse)
+[![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@cosm-changesets/parse)
 
 Parses a changeset from its written format to a data object.
 
 ```js
-import parse from "@changesets/parse";
+import parse from "@cosm-changesets/parse";
 
 const changeset = `---
-"@changesets/something": minor
-"@changesets/something-else": patch
+"@cosm-changesets/something": minor
+"@cosm-changesets/something-else": patch
 ---
 
 A description of a minor change`;
@@ -21,8 +21,8 @@ For example, it can convert:
 
 ```md
 ---
-"@changesets/something": minor
-"@changesets/something-else": patch
+"@cosm-changesets/something": minor
+"@cosm-changesets/something-else": patch
 ---
 
 A description of a minor change
@@ -34,8 +34,8 @@ to
 {
   "summary": "A description of a minor change",
   "releases": [
-    { "name": "@changesets/something", "type": "minor" },
-    { "name": "@changesets/something-else", "type": "patch" }
+    { "name": "@cosm-changesets/something", "type": "minor" },
+    { "name": "@cosm-changesets/something-else", "type": "patch" }
   ]
 }
 ```

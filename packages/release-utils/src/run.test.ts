@@ -1,7 +1,11 @@
-import { add, commit } from "@changesets/git";
-import { silenceLogsInBlock, tempdir, testdir } from "@changesets/test-utils";
-import { Changeset } from "@changesets/types";
-import writeChangeset from "@changesets/write";
+import { add, commit } from "@cosm-changesets/git";
+import {
+  silenceLogsInBlock,
+  tempdir,
+  testdir,
+} from "@cosm-changesets/test-utils";
+import { Changeset } from "@cosm-changesets/types";
+import writeChangeset from "@cosm-changesets/write";
 import fileUrl from "file-url";
 import fs from "fs-extra";
 import path from "path";

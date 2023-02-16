@@ -1,5 +1,5 @@
 {
-  "name": "@changesets/parse",
+  "name": "@cosm-changesets/parse",
   "version": "0.3.16",
   "description": "Parse a changeset file's contents into a usable json object",
   "main": "dist/parse.cjs.js",
@@ -7,8 +7,8 @@
   "license": "MIT",
   "repository": "https://github.com/changesets/changesets/tree/main/packages/parse",
   "dependencies": {
-    "@changesets/types": "^5.2.1",
-    "js-yaml": "^3.13.1"
+    "@cosm-changesets/types": "^5.2.1",
+    "js-yaml": "^3.14.1"
   },
   "devDependencies": {
     "outdent": "^0.5.0"

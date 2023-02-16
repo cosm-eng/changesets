@@ -1,11 +1,11 @@
 import fs from "fs-extra";
 import path from "path";
-import * as git from "@changesets/git";
-import { warn } from "@changesets/logger";
-import { silenceLogsInBlock, testdir } from "@changesets/test-utils";
-import writeChangeset from "@changesets/write";
-import { Config, Changeset } from "@changesets/types";
-import { defaultConfig } from "@changesets/config";
+import * as git from "@cosm-changesets/git";
+import { warn } from "@cosm-changesets/logger";
+import { silenceLogsInBlock, testdir } from "@cosm-changesets/test-utils";
+import writeChangeset from "@cosm-changesets/write";
+import { Config, Changeset } from "@cosm-changesets/types";
+import { defaultConfig } from "@cosm-changesets/config";
 import { getPackages } from "@manypkg/get-packages";
 import pre from "../pre";
 import version from "./index";
@@ -58,9 +58,9 @@ let defaultOptions = {
 const consoleError = console.error;
 
 jest.mock("../../utils/cli-utilities");
-jest.mock("@changesets/git");
+jest.mock("@cosm-changesets/git");
 jest.mock("human-id");
-jest.mock("@changesets/logger");
+jest.mock("@cosm-changesets/logger");
 
 // @ts-ignore
 git.add.mockImplementation(() => Promise.resolve(true));

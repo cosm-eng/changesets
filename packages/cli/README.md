@@ -1,6 +1,6 @@
-## @changesets/cli 🦋
+## @cosm-changesets/cli 🦋
 
-[![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@changesets/cli)
+[![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@cosm-changesets/cli)
 
 The primary implementation of [changesets](https://github.com/Noviny/changesets). Helps you manage the versioning
 and changelog entries for your packages, with a focus on versioning within a mono-repository (though we support
@@ -15,14 +15,14 @@ in single-package repositories.
 If you are installing this in a monorepo run
 
 ```
-yarn add @changesets/cli
+yarn add @cosm-changesets/cli
 yarn changeset init
 ```
 
 otherwise run
 
 ```
-yarn add --dev @changesets/cli
+yarn add --dev @cosm-changesets/cli
 yarn changeset init
 ```
 
@@ -112,11 +112,11 @@ This command will ask you a series of questions, first about what packages you w
 
 Once confirmed, the changeset will write a Markdown file that contains the summary and YAML front matter which stores the packages that will be released and the semver bump types for them.
 
-A changeset that major bumps `@changesets/cli` would look like this:
+A changeset that major bumps `@cosm-changesets/cli` would look like this:
 
 ```md
 ---
-"@changesets/cli": major
+"@cosm-changesets/cli": major
 ---
 
 A description of the major changes.

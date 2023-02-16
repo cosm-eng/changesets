@@ -3,13 +3,13 @@ import {
   Config,
   NewChangeset,
   ComprehensiveRelease,
-} from "@changesets/types";
-import * as git from "@changesets/git";
+} from "@cosm-changesets/types";
+import * as git from "@cosm-changesets/git";
 import fs from "fs-extra";
 import path from "path";
 import outdent from "outdent";
 import spawn from "spawndamnit";
-import { defaultConfig } from "@changesets/config";
+import { defaultConfig } from "@cosm-changesets/config";
 
 import applyReleasePlan from "./";
 import { getPackages } from "@manypkg/get-packages";
@@ -17,7 +17,7 @@ import {
   temporarilySilenceLogs,
   testdir,
   Fixture,
-} from "@changesets/test-utils";
+} from "@cosm-changesets/test-utils";
 
 class FakeReleasePlan {
   changesets: NewChangeset[];

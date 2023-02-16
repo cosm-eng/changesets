@@ -1,7 +1,7 @@
 import fs from "fs-extra";
 import path from "path";
-import { defaultWrittenConfig } from "@changesets/config";
-import { silenceLogsInBlock, testdir } from "@changesets/test-utils";
+import { defaultWrittenConfig } from "@cosm-changesets/config";
+import { silenceLogsInBlock, testdir } from "@cosm-changesets/test-utils";
 
 import initializeCommand from "..";
 

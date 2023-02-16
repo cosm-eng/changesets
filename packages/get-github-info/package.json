@@ -1,5 +1,5 @@
 {
-  "name": "@changesets/get-github-info",
+  "name": "@cosm-changesets/get-github-info",
   "version": "0.5.2",
   "description": "Get the GitHub username and PR number from a commit. Intended for use with changesets.",
   "main": "dist/get-github-info.cjs.js",
@@ -8,10 +8,10 @@
   "repository": "https://github.com/changesets/changesets/tree/main/packages/get-github-info",
   "dependencies": {
     "dataloader": "^1.4.0",
-    "node-fetch": "^2.5.0"
+    "node-fetch": "^2.6.9"
   },
   "devDependencies": {
-    "nock": "^11.7.0",
-    "prettier": "^2.7.1"
+    "nock": "^11.9.1",
+    "prettier": "^2.8.4"
   }
 }

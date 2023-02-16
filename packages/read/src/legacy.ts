@@ -1,9 +1,9 @@
 import chalk from "chalk";
 import path from "path";
-import { NewChangeset } from "@changesets/types";
+import { NewChangeset } from "@cosm-changesets/types";
 import * as fs from "fs-extra";
 import pFilter from "p-filter";
-import { warn } from "@changesets/logger";
+import { warn } from "@cosm-changesets/logger";
 
 // THIS SHOULD BE REMOVED WHEN SUPPORT FOR CHANGESETS FROM V1 IS DROPPED
 

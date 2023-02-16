@@ -2,8 +2,8 @@ import {
   ComprehensiveRelease,
   PackageJSON,
   VersionType,
-} from "@changesets/types";
-import getVersionRangeType from "@changesets/get-version-range-type";
+} from "@cosm-changesets/types";
+import getVersionRangeType from "@cosm-changesets/get-version-range-type";
 import semver from "semver";
 import { shouldUpdateDependencyBasedOnConfig } from "./utils";
 
@@ -27,7 +27,7 @@ export default function versionPackage(
     bumpVersionsWithWorkspaceProtocolOnly,
     snapshot,
   }: {
-    updateInternalDependencies: "patch" | "minor";
+    updateInternalDependencies: "patch" | "minor" | "none";
     onlyUpdatePeerDependentsWhenOutOfRange: boolean;
     bumpVersionsWithWorkspaceProtocolOnly?: boolean;
     snapshot?: string | boolean | undefined;

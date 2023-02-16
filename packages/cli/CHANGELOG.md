@@ -1,4 +1,4 @@
-# @changesets/cli
+# @cosm-changesets/cli
 
 ## 2.26.0
 
@@ -18,25 +18,25 @@
 ### Patch Changes
 
 - Updated dependencies [[`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7), [`521205d`](https://github.com/changesets/changesets/commit/521205dc8c70fe71b181bd3c4bb7c9c6d2e721d2), [`521205d`](https://github.com/changesets/changesets/commit/521205dc8c70fe71b181bd3c4bb7c9c6d2e721d2), [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7), [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7), [`521205d`](https://github.com/changesets/changesets/commit/521205dc8c70fe71b181bd3c4bb7c9c6d2e721d2)]:
-  - @changesets/git@2.0.0
-  - @changesets/config@2.3.0
-  - @changesets/types@5.2.1
-  - @changesets/apply-release-plan@6.1.3
-  - @changesets/read@0.5.9
-  - @changesets/assemble-release-plan@5.2.3
-  - @changesets/get-release-plan@3.0.16
-  - @changesets/changelog-git@0.1.14
-  - @changesets/get-dependents-graph@1.3.5
-  - @changesets/pre@1.0.14
-  - @changesets/write@0.2.3
+  - @cosm-changesets/git@2.0.0
+  - @cosm-changesets/config@2.3.0
+  - @cosm-changesets/types@5.2.1
+  - @cosm-changesets/apply-release-plan@6.1.3
+  - @cosm-changesets/read@0.5.9
+  - @cosm-changesets/assemble-release-plan@5.2.3
+  - @cosm-changesets/get-release-plan@3.0.16
+  - @cosm-changesets/changelog-git@0.1.14
+  - @cosm-changesets/get-dependents-graph@1.3.5
+  - @cosm-changesets/pre@1.0.14
+  - @cosm-changesets/write@0.2.3
 
 ## 2.25.2
 
 ### Patch Changes
 
 - Updated dependencies [[`6cc4300`](https://github.com/changesets/changesets/commit/6cc430013a052dc2488b9e6700a1e4bd8c8e0680)]:
-  - @changesets/apply-release-plan@6.1.2
-  - @changesets/write@0.2.2
+  - @cosm-changesets/apply-release-plan@6.1.2
+  - @cosm-changesets/write@0.2.2
 
 ## 2.25.1
 
@@ -71,33 +71,33 @@
   With a changeset for `pkg-a` the `pkg-c` could have been sometimes incorrectly released.
 
 - Updated dependencies [[`8c08469`](https://github.com/changesets/changesets/commit/8c0846977597ddaf51aaeb35f1f0f9428bf8ba14), [`8c08469`](https://github.com/changesets/changesets/commit/8c0846977597ddaf51aaeb35f1f0f9428bf8ba14), [`64585ea`](https://github.com/changesets/changesets/commit/64585ea4323c4cf51a23b0635990b568d1f58b2b)]:
-  - @changesets/git@1.5.0
-  - @changesets/config@2.2.0
-  - @changesets/types@5.2.0
-  - @changesets/assemble-release-plan@5.2.2
-  - @changesets/apply-release-plan@6.1.1
-  - @changesets/read@0.5.8
-  - @changesets/get-release-plan@3.0.15
-  - @changesets/changelog-git@0.1.13
-  - @changesets/get-dependents-graph@1.3.4
-  - @changesets/pre@1.0.13
-  - @changesets/write@0.2.1
+  - @cosm-changesets/git@1.5.0
+  - @cosm-changesets/config@2.2.0
+  - @cosm-changesets/types@5.2.0
+  - @cosm-changesets/assemble-release-plan@5.2.2
+  - @cosm-changesets/apply-release-plan@6.1.1
+  - @cosm-changesets/read@0.5.8
+  - @cosm-changesets/get-release-plan@3.0.15
+  - @cosm-changesets/changelog-git@0.1.13
+  - @cosm-changesets/get-dependents-graph@1.3.4
+  - @cosm-changesets/pre@1.0.13
+  - @cosm-changesets/write@0.2.1
 
 ## 2.24.4
 
 ### Patch Changes
 
 - Updated dependencies [[`c140171`](https://github.com/changesets/changesets/commit/c1401716cf5ee839aaa02ea7ff8f23f8af8bf5b0)]:
-  - @changesets/apply-release-plan@6.1.0
-  - @changesets/write@0.2.0
+  - @cosm-changesets/apply-release-plan@6.1.0
+  - @cosm-changesets/write@0.2.0
 
 ## 2.24.3
 
 ### Patch Changes
 
 - Updated dependencies [[`b023e4b`](https://github.com/changesets/changesets/commit/b023e4b3d1ad793a5dd1187b720e8103cebfb937)]:
-  - @changesets/assemble-release-plan@5.2.1
-  - @changesets/get-release-plan@3.0.14
+  - @cosm-changesets/assemble-release-plan@5.2.1
+  - @cosm-changesets/get-release-plan@3.0.14
 
 ## 2.24.2
 
@@ -110,19 +110,19 @@
 - [#844](https://github.com/changesets/changesets/pull/844) [`8627ec1`](https://github.com/changesets/changesets/commit/8627ec1faba53644b366c314be248e1bba48f329) Thanks [@Andarist](https://github.com/Andarist)! - Attempt to log `stdout` when publish fails if `stderr` is empty and JSON error can't be retrieved from none of those.
 
 - Updated dependencies [[`7d998ee`](https://github.com/changesets/changesets/commit/7d998eeb16064b5442ebc49ad31dec7b841d504e), [`7d998ee`](https://github.com/changesets/changesets/commit/7d998eeb16064b5442ebc49ad31dec7b841d504e)]:
-  - @changesets/config@2.1.1
-  - @changesets/apply-release-plan@6.0.4
-  - @changesets/get-release-plan@3.0.13
+  - @cosm-changesets/config@2.1.1
+  - @cosm-changesets/apply-release-plan@6.0.4
+  - @cosm-changesets/get-release-plan@3.0.13
 
 ## 2.24.1
 
 ### Patch Changes
 
 - Updated dependencies [[`f64bc1b`](https://github.com/changesets/changesets/commit/f64bc1bb33457918eae34b22f214174ba3cf4504)]:
-  - @changesets/git@1.4.1
-  - @changesets/apply-release-plan@6.0.3
-  - @changesets/read@0.5.7
-  - @changesets/get-release-plan@3.0.12
+  - @cosm-changesets/git@1.4.1
+  - @cosm-changesets/apply-release-plan@6.0.3
+  - @cosm-changesets/read@0.5.7
+  - @cosm-changesets/get-release-plan@3.0.12
 
 ## 2.24.0
 
@@ -159,17 +159,17 @@
   ```
 
 - Updated dependencies [[`dd9b76f`](https://github.com/changesets/changesets/commit/dd9b76f162a546ae8b412e0cb10277f971f3585e), [`dd9b76f`](https://github.com/changesets/changesets/commit/dd9b76f162a546ae8b412e0cb10277f971f3585e), [`dd9b76f`](https://github.com/changesets/changesets/commit/dd9b76f162a546ae8b412e0cb10277f971f3585e)]:
-  - @changesets/config@2.1.0
-  - @changesets/git@1.4.0
-  - @changesets/assemble-release-plan@5.2.0
-  - @changesets/types@5.1.0
-  - @changesets/apply-release-plan@6.0.2
-  - @changesets/get-release-plan@3.0.11
-  - @changesets/read@0.5.6
-  - @changesets/changelog-git@0.1.12
-  - @changesets/get-dependents-graph@1.3.3
-  - @changesets/pre@1.0.12
-  - @changesets/write@0.1.9
+  - @cosm-changesets/config@2.1.0
+  - @cosm-changesets/git@1.4.0
+  - @cosm-changesets/assemble-release-plan@5.2.0
+  - @cosm-changesets/types@5.1.0
+  - @cosm-changesets/apply-release-plan@6.0.2
+  - @cosm-changesets/get-release-plan@3.0.11
+  - @cosm-changesets/read@0.5.6
+  - @cosm-changesets/changelog-git@0.1.12
+  - @cosm-changesets/get-dependents-graph@1.3.3
+  - @cosm-changesets/pre@1.0.12
+  - @cosm-changesets/write@0.1.9
 
 ## 2.23.2
 
@@ -188,9 +188,9 @@
 - [#744](https://github.com/changesets/changesets/pull/744) [`84e46d1`](https://github.com/changesets/changesets/commit/84e46d19bd26c3a4ab6ff6d0543bd327dfa32a10) Thanks [@mskelton](https://github.com/mskelton)! - Ignored packages are no longer listed when adding a changeset.
 
 - Updated dependencies [[`2827c7a`](https://github.com/changesets/changesets/commit/2827c7ab33af30065fafe72ede1a2a6ac88d5276), [`7b1c0c1`](https://github.com/changesets/changesets/commit/7b1c0c1b73a19b50fe3a104acb440c604eab108f), [`7febb59`](https://github.com/changesets/changesets/commit/7febb599167234ae071b5d223b80cbc8a9375709)]:
-  - @changesets/config@2.0.1
-  - @changesets/apply-release-plan@6.0.1
-  - @changesets/get-release-plan@3.0.10
+  - @cosm-changesets/config@2.0.1
+  - @cosm-changesets/apply-release-plan@6.0.1
+  - @cosm-changesets/get-release-plan@3.0.10
 
 ## 2.23.0
 
@@ -205,8 +205,8 @@
 - [#767](https://github.com/changesets/changesets/pull/767) [`d6bfcc5`](https://github.com/changesets/changesets/commit/d6bfcc5052dcba18c521a20d62e2e67a81819112) Thanks [@Andarist](https://github.com/Andarist)! - Improve the error message when a package referenced in a changeset can't be found. The message will now also include the changeset's ID.
 
 - Updated dependencies [[`d6bfcc5`](https://github.com/changesets/changesets/commit/d6bfcc5052dcba18c521a20d62e2e67a81819112)]:
-  - @changesets/assemble-release-plan@5.1.3
-  - @changesets/get-release-plan@3.0.9
+  - @cosm-changesets/assemble-release-plan@5.1.3
+  - @cosm-changesets/get-release-plan@3.0.9
 
 ## 2.22.0
 
@@ -221,17 +221,17 @@
 - [#770](https://github.com/changesets/changesets/pull/770) [`eb86652`](https://github.com/changesets/changesets/commit/eb86652cbd21c49f90d2a03caa9a578593c4d102) Thanks [@alizeait](https://github.com/alizeait)! - `changeset add` and `changeset status` should now properly handle the situation where Changesets are managed from a directory different than the root of the repository.
 
 - Updated dependencies [[`c87eba6`](https://github.com/changesets/changesets/commit/c87eba6f80a34563b7382f87472c29f6dafb546c), [`eb86652`](https://github.com/changesets/changesets/commit/eb86652cbd21c49f90d2a03caa9a578593c4d102), [`c87eba6`](https://github.com/changesets/changesets/commit/c87eba6f80a34563b7382f87472c29f6dafb546c), [`c87eba6`](https://github.com/changesets/changesets/commit/c87eba6f80a34563b7382f87472c29f6dafb546c)]:
-  - @changesets/types@5.0.0
-  - @changesets/git@1.3.2
-  - @changesets/apply-release-plan@6.0.0
-  - @changesets/config@2.0.0
-  - @changesets/assemble-release-plan@5.1.2
-  - @changesets/changelog-git@0.1.11
-  - @changesets/get-dependents-graph@1.3.2
-  - @changesets/get-release-plan@3.0.8
-  - @changesets/pre@1.0.11
-  - @changesets/read@0.5.5
-  - @changesets/write@0.1.8
+  - @cosm-changesets/types@5.0.0
+  - @cosm-changesets/git@1.3.2
+  - @cosm-changesets/apply-release-plan@6.0.0
+  - @cosm-changesets/config@2.0.0
+  - @cosm-changesets/assemble-release-plan@5.1.2
+  - @cosm-changesets/changelog-git@0.1.11
+  - @cosm-changesets/get-dependents-graph@1.3.2
+  - @cosm-changesets/get-release-plan@3.0.8
+  - @cosm-changesets/pre@1.0.11
+  - @cosm-changesets/read@0.5.5
+  - @cosm-changesets/write@0.1.8
 
 ## 2.21.1
 
@@ -242,8 +242,8 @@
 - [#769](https://github.com/changesets/changesets/pull/769) [`3e8e672`](https://github.com/changesets/changesets/commit/3e8e6721d31f80fff28826e0fad2c14216c3d94f) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an infinite loop involving a fixed group of packages and a package within that group that was both ignored and dependent on another package from that group.
 
 - Updated dependencies [[`3e8e672`](https://github.com/changesets/changesets/commit/3e8e6721d31f80fff28826e0fad2c14216c3d94f)]:
-  - @changesets/assemble-release-plan@5.1.1
-  - @changesets/get-release-plan@3.0.7
+  - @cosm-changesets/assemble-release-plan@5.1.1
+  - @cosm-changesets/get-release-plan@3.0.7
 
 ## 2.21.0
 
@@ -266,17 +266,17 @@
 - [#703](https://github.com/changesets/changesets/pull/703) [`15c461d`](https://github.com/changesets/changesets/commit/15c461d5de94a274ccc8b33755a133a513339b0a) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with dependant packages being always bumped when their `*` dependency was bumped.
 
 - Updated dependencies [[`0812858`](https://github.com/changesets/changesets/commit/0812858996045e602d22f2b7dd13e8673e3b36b0), [`15c461d`](https://github.com/changesets/changesets/commit/15c461d5de94a274ccc8b33755a133a513339b0a), [`27a5a82`](https://github.com/changesets/changesets/commit/27a5a82188914570d192162f9d045dfd082a3c15), [`27a5a82`](https://github.com/changesets/changesets/commit/27a5a82188914570d192162f9d045dfd082a3c15), [`d14cf79`](https://github.com/changesets/changesets/commit/d14cf79fd323529c6fe6ca956d9a7fda93bb425b), [`27a5a82`](https://github.com/changesets/changesets/commit/27a5a82188914570d192162f9d045dfd082a3c15), [`0d1debd`](https://github.com/changesets/changesets/commit/0d1debd8f5d364073d627a017316a25554dec4d5), [`59c7ebc`](https://github.com/changesets/changesets/commit/59c7ebc7a5e75f69f5487e95a85cd1b7062ac39d), [`15c461d`](https://github.com/changesets/changesets/commit/15c461d5de94a274ccc8b33755a133a513339b0a)]:
-  - @changesets/assemble-release-plan@5.1.0
-  - @changesets/apply-release-plan@5.0.5
-  - @changesets/types@4.1.0
-  - @changesets/config@1.7.0
-  - @changesets/changelog-git@0.1.10
-  - @changesets/get-release-plan@3.0.6
-  - @changesets/get-dependents-graph@1.3.1
-  - @changesets/git@1.3.1
-  - @changesets/pre@1.0.10
-  - @changesets/read@0.5.4
-  - @changesets/write@0.1.7
+  - @cosm-changesets/assemble-release-plan@5.1.0
+  - @cosm-changesets/apply-release-plan@5.0.5
+  - @cosm-changesets/types@4.1.0
+  - @cosm-changesets/config@1.7.0
+  - @cosm-changesets/changelog-git@0.1.10
+  - @cosm-changesets/get-release-plan@3.0.6
+  - @cosm-changesets/get-dependents-graph@1.3.1
+  - @cosm-changesets/git@1.3.1
+  - @cosm-changesets/pre@1.0.10
+  - @cosm-changesets/read@0.5.4
+  - @cosm-changesets/write@0.1.7
 
 ## 2.20.0
 
@@ -293,13 +293,13 @@
 - [#693](https://github.com/changesets/changesets/pull/693) [`1be201f`](https://github.com/changesets/changesets/commit/1be201fc27903cb2f42137400b5484c4ccad3812) Thanks [@luciaquirke](https://github.com/luciaquirke)! - Fixed an issue with `none` release type sometimes overriding other release types and thus preventing a release from happening.
 
 - Updated dependencies [[`6f9c9d6`](https://github.com/changesets/changesets/commit/6f9c9d60c0e02c79d555c48deb01559057f1d252), [`77c1cef`](https://github.com/changesets/changesets/commit/77c1ceff402f390c1ededec358d914ba68a31d0d), [`1be201f`](https://github.com/changesets/changesets/commit/1be201fc27903cb2f42137400b5484c4ccad3812)]:
-  - @changesets/get-dependents-graph@1.3.0
-  - @changesets/git@1.3.0
-  - @changesets/assemble-release-plan@5.0.5
-  - @changesets/config@1.6.4
-  - @changesets/apply-release-plan@5.0.4
-  - @changesets/read@0.5.3
-  - @changesets/get-release-plan@3.0.5
+  - @cosm-changesets/get-dependents-graph@1.3.0
+  - @cosm-changesets/git@1.3.0
+  - @cosm-changesets/assemble-release-plan@5.0.5
+  - @cosm-changesets/config@1.6.4
+  - @cosm-changesets/apply-release-plan@5.0.4
+  - @cosm-changesets/read@0.5.3
+  - @cosm-changesets/get-release-plan@3.0.5
 
 ## 2.19.0
 
@@ -316,9 +316,9 @@
 - [#710](https://github.com/changesets/changesets/pull/710) [`4272cb0`](https://github.com/changesets/changesets/commit/4272cb0eca8b24857b4832df4ae7300befe6feb2) Thanks [@Andarist](https://github.com/Andarist)! - Errors received from `npm profile get --json`, that is used to check if 2FA is required, will now always be printed.
 
 - Updated dependencies [[`82be80e`](https://github.com/changesets/changesets/commit/82be80ecfe9288535071e850ae56f2e7a7006eba), [`e4c4b29`](https://github.com/changesets/changesets/commit/e4c4b2934beee9b25a927b4ae1b7280f4323d4ff)]:
-  - @changesets/pre@1.0.9
-  - @changesets/assemble-release-plan@5.0.4
-  - @changesets/get-release-plan@3.0.4
+  - @cosm-changesets/pre@1.0.9
+  - @cosm-changesets/assemble-release-plan@5.0.4
+  - @cosm-changesets/get-release-plan@3.0.4
 
 ## 2.18.1
 
@@ -331,16 +331,16 @@
 - [#667](https://github.com/changesets/changesets/pull/667) [`fe8db75`](https://github.com/changesets/changesets/commit/fe8db7500f81caea9064f8bec02bcb77e0fd8fce) Thanks [@fz6m](https://github.com/fz6m)! - Upgraded `@manypkg/get-packages` dependency to fix getting correct packages in pnpm workspaces with exclude rules.
 
 - Updated dependencies [[`fe8db75`](https://github.com/changesets/changesets/commit/fe8db7500f81caea9064f8bec02bcb77e0fd8fce), [`9a993ba`](https://github.com/changesets/changesets/commit/9a993ba09629c1620d749432520470cec49d3a96)]:
-  - @changesets/apply-release-plan@5.0.3
-  - @changesets/assemble-release-plan@5.0.3
-  - @changesets/config@1.6.3
-  - @changesets/get-dependents-graph@1.2.4
-  - @changesets/get-release-plan@3.0.3
-  - @changesets/git@1.2.1
-  - @changesets/pre@1.0.8
-  - @changesets/types@4.0.2
-  - @changesets/read@0.5.2
-  - @changesets/write@0.1.6
+  - @cosm-changesets/apply-release-plan@5.0.3
+  - @cosm-changesets/assemble-release-plan@5.0.3
+  - @cosm-changesets/config@1.6.3
+  - @cosm-changesets/get-dependents-graph@1.2.4
+  - @cosm-changesets/get-release-plan@3.0.3
+  - @cosm-changesets/git@1.2.1
+  - @cosm-changesets/pre@1.0.8
+  - @cosm-changesets/types@4.0.2
+  - @cosm-changesets/read@0.5.2
+  - @cosm-changesets/write@0.1.6
 
 ## 2.18.0
 
@@ -359,13 +359,13 @@
 - [#660](https://github.com/changesets/changesets/pull/660) [`5413f3e`](https://github.com/changesets/changesets/commit/5413f3e772bf867234922b0691e3c58c1864412d) Thanks [@tmkx](https://github.com/tmkx)! - Fixed an issue with adding `[undefined]` to the generated changelog when the commit adding a changeset file could not be found. This could have happened when running `changeset add && changeset version` in a single command and when using the default changelog generator.
 
 - Updated dependencies [[`2b49c39`](https://github.com/changesets/changesets/commit/2b49c390a7cf24ce859ac932b432eb6d8f55c98b), [`74dda8c`](https://github.com/changesets/changesets/commit/74dda8c0d8bd1741ca7b19f0ccb37b2330dc9549)]:
-  - @changesets/git@1.2.0
-  - @changesets/apply-release-plan@5.0.2
-  - @changesets/get-dependents-graph@1.2.3
-  - @changesets/read@0.5.1
-  - @changesets/assemble-release-plan@5.0.2
-  - @changesets/config@1.6.2
-  - @changesets/get-release-plan@3.0.2
+  - @cosm-changesets/git@1.2.0
+  - @cosm-changesets/apply-release-plan@5.0.2
+  - @cosm-changesets/get-dependents-graph@1.2.3
+  - @cosm-changesets/read@0.5.1
+  - @cosm-changesets/assemble-release-plan@5.0.2
+  - @cosm-changesets/config@1.6.2
+  - @cosm-changesets/get-release-plan@3.0.2
 
 ## 2.17.0
 
@@ -378,16 +378,16 @@
 - [#582](https://github.com/changesets/changesets/pull/582) [`e89e28a`](https://github.com/changesets/changesets/commit/e89e28a05f5fa43307db73812a6bcd269b62ddee) Thanks [@Andarist](https://github.com/Andarist)! - Add support for publishConfig.registry
 
 - Updated dependencies [[`bc611cf`](https://github.com/changesets/changesets/commit/bc611cf2104ff8170e9ea8acb10952ea8cc2a784), [`e89e28a`](https://github.com/changesets/changesets/commit/e89e28a05f5fa43307db73812a6bcd269b62ddee)]:
-  - @changesets/read@0.5.0
-  - @changesets/types@4.0.1
-  - @changesets/get-release-plan@3.0.1
-  - @changesets/apply-release-plan@5.0.1
-  - @changesets/assemble-release-plan@5.0.1
-  - @changesets/config@1.6.1
-  - @changesets/get-dependents-graph@1.2.2
-  - @changesets/git@1.1.2
-  - @changesets/pre@1.0.7
-  - @changesets/write@0.1.5
+  - @cosm-changesets/read@0.5.0
+  - @cosm-changesets/types@4.0.1
+  - @cosm-changesets/get-release-plan@3.0.1
+  - @cosm-changesets/apply-release-plan@5.0.1
+  - @cosm-changesets/assemble-release-plan@5.0.1
+  - @cosm-changesets/config@1.6.1
+  - @cosm-changesets/get-dependents-graph@1.2.2
+  - @cosm-changesets/git@1.1.2
+  - @cosm-changesets/pre@1.0.7
+  - @cosm-changesets/write@0.1.5
 
 ## 2.16.0
 
@@ -410,16 +410,16 @@
 ### Patch Changes
 
 - Updated dependencies [[`de2b4a5`](https://github.com/changesets/changesets/commit/de2b4a5a7b244a37d94625bcb70ecde9dde5b612), [`de2b4a5`](https://github.com/changesets/changesets/commit/de2b4a5a7b244a37d94625bcb70ecde9dde5b612)]:
-  - @changesets/config@1.6.0
-  - @changesets/types@4.0.0
-  - @changesets/apply-release-plan@5.0.0
-  - @changesets/assemble-release-plan@5.0.0
-  - @changesets/get-release-plan@3.0.0
-  - @changesets/get-dependents-graph@1.2.1
-  - @changesets/git@1.1.1
-  - @changesets/pre@1.0.6
-  - @changesets/read@0.4.7
-  - @changesets/write@0.1.4
+  - @cosm-changesets/config@1.6.0
+  - @cosm-changesets/types@4.0.0
+  - @cosm-changesets/apply-release-plan@5.0.0
+  - @cosm-changesets/assemble-release-plan@5.0.0
+  - @cosm-changesets/get-release-plan@3.0.0
+  - @cosm-changesets/get-dependents-graph@1.2.1
+  - @cosm-changesets/git@1.1.1
+  - @cosm-changesets/pre@1.0.6
+  - @cosm-changesets/read@0.4.7
+  - @cosm-changesets/write@0.1.4
 
 ## 2.15.0
 
@@ -430,7 +430,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`8b9ac07`](https://github.com/changesets/changesets/commit/8b9ac076a87eaf9556ec5ede0222a75182095662)]:
-  - @changesets/assemble-release-plan@4.1.1
+  - @cosm-changesets/assemble-release-plan@4.1.1
 
 ## 2.14.1
 
@@ -447,11 +447,11 @@
 ### Patch Changes
 
 - Updated dependencies [[`12f9a43`](https://github.com/changesets/changesets/commit/12f9a433a6c3ac38f9405fcd77c9108c423d7101)]:
-  - @changesets/apply-release-plan@4.2.0
-  - @changesets/assemble-release-plan@4.1.0
-  - @changesets/config@1.5.0
-  - @changesets/get-dependents-graph@1.2.0
-  - @changesets/types@3.3.0
+  - @cosm-changesets/apply-release-plan@4.2.0
+  - @cosm-changesets/assemble-release-plan@4.1.0
+  - @cosm-changesets/config@1.5.0
+  - @cosm-changesets/get-dependents-graph@1.2.0
+  - @cosm-changesets/types@3.3.0
 
 ## 2.13.1
 
@@ -470,7 +470,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`24d7bc9`](https://github.com/changesets/changesets/commit/24d7bc9e56a6dce7c64b39e8f73e50e21762faac), [`24d7bc9`](https://github.com/changesets/changesets/commit/24d7bc9e56a6dce7c64b39e8f73e50e21762faac)]:
-  - @changesets/git@1.1.0
+  - @cosm-changesets/git@1.1.0
 
 ## 2.12.0
 
@@ -501,8 +501,8 @@
 - [`a60c0e1`](https://github.com/changesets/changesets/commit/a60c0e1557ccdc3a9e7f665dd679c223f64450fe) [#465](https://github.com/changesets/changesets/pull/465) Thanks [@Andarist](https://github.com/Andarist)! - Fixed the printed description of how `pre` command can be used.
 
 - Updated dependencies [[`f4973a2`](https://github.com/changesets/changesets/commit/f4973a25ec6a837f36d64c1fb4b108ace3bc1f9d), [`e33e4ca`](https://github.com/changesets/changesets/commit/e33e4ca7e71ba7747e21af5011057f11ddfab939)]:
-  - @changesets/types@3.2.0
-  - @changesets/config@1.4.0
+  - @cosm-changesets/types@3.2.0
+  - @cosm-changesets/config@1.4.0
 
 ## 2.10.3
 
@@ -515,8 +515,8 @@
   For the very same reason linked packages were also not always bumped correctly in pre mode to the highest bump type in a linked group.
 
 - Updated dependencies [[`ab98fe3`](https://github.com/changesets/changesets/commit/ab98fe33814867ba740fc04733602be80771915c), [`d1d987c`](https://github.com/changesets/changesets/commit/d1d987c42cddff8be5d7f04d3ebb5a262779fa9f), [`9d99bd1`](https://github.com/changesets/changesets/commit/9d99bd16f2b6b3ab4fe820358d4c9f313cb2ae76)]:
-  - @changesets/assemble-release-plan@4.0.0
-  - @changesets/get-release-plan@2.0.1
+  - @cosm-changesets/assemble-release-plan@4.0.0
+  - @cosm-changesets/get-release-plan@2.0.1
 
 ## 2.10.2
 
@@ -525,7 +525,7 @@
 - [`d531dbd`](https://github.com/changesets/changesets/commit/d531dbdc9ac22faccb20356e9ea1313e5095cf9d) [#412](https://github.com/changesets/changesets/pull/412) Thanks [@Feiyang1](https://github.com/Feiyang1)! - Fixed an issue with the same package specified as a different dependency type with different range types not being updated correctly for all of them.
 
 - Updated dependencies [[`d531dbd`](https://github.com/changesets/changesets/commit/d531dbdc9ac22faccb20356e9ea1313e5095cf9d)]:
-  - @changesets/assemble-release-plan@3.0.1
+  - @cosm-changesets/assemble-release-plan@3.0.1
 
 ## 2.10.1
 
@@ -546,8 +546,8 @@
 - [`868eb1e`](https://github.com/changesets/changesets/commit/868eb1e68ee91aabefa04a9abf13a7fc22eef019) [#434](https://github.com/changesets/changesets/pull/434) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Add `--no-git-checks` to `pnpm publish` in `changeset publish` to resolve issues with publishing on CI
 
 - Updated dependencies [[`1dd3117`](https://github.com/changesets/changesets/commit/1dd311708c65321e1a1c99d36129190f940435ed), [`a57d163`](https://github.com/changesets/changesets/commit/a57d16355ad7d67b18b768c8f79224d80afa507c)]:
-  - @changesets/git@1.0.6
-  - @changesets/types@3.1.1
+  - @cosm-changesets/git@1.0.6
+  - @cosm-changesets/types@3.1.1
 
 ## 2.9.2
 
@@ -562,7 +562,7 @@
 - [`377f5c3`](https://github.com/changesets/changesets/commit/377f5c385ad9db4ff8458f159e2d452c39828567) [#393](https://github.com/changesets/changesets/pull/393) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with experimental flags being written to disk as part of the default config when initializing Changesets.
 
 - Updated dependencies [[`377f5c3`](https://github.com/changesets/changesets/commit/377f5c385ad9db4ff8458f159e2d452c39828567), [`377f5c3`](https://github.com/changesets/changesets/commit/377f5c385ad9db4ff8458f159e2d452c39828567)]:
-  - @changesets/config@1.3.0
+  - @cosm-changesets/config@1.3.0
 
 ## 2.9.0
 
@@ -589,11 +589,11 @@
 ### Patch Changes
 
 - Updated dependencies [[`00e768e`](https://github.com/changesets/changesets/commit/00e768e4af921a894debb900f944d4c9a4e27997), [`addd725`](https://github.com/changesets/changesets/commit/addd7256d9251d999251a7c16c0a0b068d557b5d), [`9dcc364`](https://github.com/changesets/changesets/commit/9dcc364bf19e48f8f2824ebaf967d9ef41b6fc04), [`9dcc364`](https://github.com/changesets/changesets/commit/9dcc364bf19e48f8f2824ebaf967d9ef41b6fc04)]:
-  - @changesets/assemble-release-plan@3.0.0
-  - @changesets/apply-release-plan@4.0.0
-  - @changesets/get-release-plan@2.0.0
-  - @changesets/config@1.2.0
-  - @changesets/types@3.1.0
+  - @cosm-changesets/assemble-release-plan@3.0.0
+  - @cosm-changesets/apply-release-plan@4.0.0
+  - @cosm-changesets/get-release-plan@2.0.0
+  - @cosm-changesets/config@1.2.0
+  - @cosm-changesets/types@3.1.0
 
 ## 2.8.0
 
@@ -615,8 +615,8 @@
 ### Patch Changes
 
 - Updated dependencies [[`6d0790a`](https://github.com/changesets/changesets/commit/6d0790a7aa9f00e350e9394f419e4b3c7ee7ca6a)]:
-  - @changesets/apply-release-plan@3.1.0
-  - @changesets/assemble-release-plan@2.1.0
+  - @cosm-changesets/apply-release-plan@3.1.0
+  - @cosm-changesets/assemble-release-plan@2.1.0
 
 ## 2.7.2
 
@@ -627,7 +627,7 @@
 - [`90f3b65`](https://github.com/changesets/changesets/commit/90f3b651f9c0403920b17801b84a2fbe6f190e2a) [#373](https://github.com/changesets/changesets/pull/373) Thanks [@Blasz](https://github.com/Blasz)! - Fix patch bumped dependencies not being updated in dependents package.json when leaving semver range with `updateInternalDependencies` set to minor.
 
 - Updated dependencies [[`90f3b65`](https://github.com/changesets/changesets/commit/90f3b651f9c0403920b17801b84a2fbe6f190e2a)]:
-  - @changesets/apply-release-plan@3.0.3
+  - @cosm-changesets/apply-release-plan@3.0.3
 
 ## 2.7.1
 
@@ -636,7 +636,7 @@
 - [`52a88ce`](https://github.com/changesets/changesets/commit/52a88ce816692f6b18fa8f3f67d707b78b0b8210) [#361](https://github.com/changesets/changesets/pull/361) Thanks [@Blasz](https://github.com/Blasz)! - Fix dependency release lines being output when they were skipped via the updateInternalDependencies config option
 
 - Updated dependencies [[`52a88ce`](https://github.com/changesets/changesets/commit/52a88ce816692f6b18fa8f3f67d707b78b0b8210)]:
-  - @changesets/apply-release-plan@3.0.1
+  - @cosm-changesets/apply-release-plan@3.0.1
 
 ## 2.7.0
 
@@ -647,15 +647,15 @@
 ### Patch Changes
 
 - Updated dependencies [[`89f0c49`](https://github.com/changesets/changesets/commit/89f0c497ac21b8d008da67caff8032947836c7b1), [`2b49d66`](https://github.com/changesets/changesets/commit/2b49d668ecaa1333bc5c7c5be4648dda1b11528d), [`09f62f9`](https://github.com/changesets/changesets/commit/09f62f9c822f31899a48cbd93c7801d72a80b97e)]:
-  - @changesets/git@1.0.5
-  - @changesets/apply-release-plan@3.0.0
-  - @changesets/types@3.0.0
-  - @changesets/config@1.1.0
-  - @changesets/assemble-release-plan@2.0.4
-  - @changesets/get-release-plan@1.0.4
-  - @changesets/pre@1.0.4
-  - @changesets/read@0.4.6
-  - @changesets/write@0.1.3
+  - @cosm-changesets/git@1.0.5
+  - @cosm-changesets/apply-release-plan@3.0.0
+  - @cosm-changesets/types@3.0.0
+  - @cosm-changesets/config@1.1.0
+  - @cosm-changesets/assemble-release-plan@2.0.4
+  - @cosm-changesets/get-release-plan@1.0.4
+  - @cosm-changesets/pre@1.0.4
+  - @cosm-changesets/read@0.4.6
+  - @cosm-changesets/write@0.1.3
 
 ## 2.6.5
 
@@ -664,24 +664,24 @@
 - [`d570a24`](https://github.com/changesets/changesets/commit/d570a24740a374a9547dd7d931e6ac854e36a9fb) [#328](https://github.com/changesets/changesets/pull/328) Thanks [@zkochan](https://github.com/zkochan)! - Use pnpm inside a pnpm workspace. Previously, pnpm was detected properly only in projects that use one lockfile per project. However, by default pnpm creates a single lockfile per workspace.
 
 - Updated dependencies [[`d678da5`](https://github.com/changesets/changesets/commit/d678da5e9936862bb66e5edb538c5b8be23d4ffe)]:
-  - @changesets/assemble-release-plan@2.0.2
+  - @cosm-changesets/assemble-release-plan@2.0.2
 
 ## 2.6.4
 
 ### Patch Changes
 
 - Updated dependencies [[`1706fb7`](https://github.com/changesets/changesets/commit/1706fb751ecc2f5a792c42f467b2063078d58716)]:
-  - @changesets/apply-release-plan@2.0.1
-  - @changesets/assemble-release-plan@2.0.1
-  - @changesets/config@1.0.3
-  - @changesets/errors@0.1.4
-  - @changesets/get-release-plan@1.0.3
-  - @changesets/git@1.0.3
-  - @changesets/logger@0.0.5
-  - @changesets/pre@1.0.3
-  - @changesets/read@0.4.5
-  - @changesets/types@2.0.1
-  - @changesets/write@0.1.2
+  - @cosm-changesets/apply-release-plan@2.0.1
+  - @cosm-changesets/assemble-release-plan@2.0.1
+  - @cosm-changesets/config@1.0.3
+  - @cosm-changesets/errors@0.1.4
+  - @cosm-changesets/get-release-plan@1.0.3
+  - @cosm-changesets/git@1.0.3
+  - @cosm-changesets/logger@0.0.5
+  - @cosm-changesets/pre@1.0.3
+  - @cosm-changesets/read@0.4.5
+  - @cosm-changesets/types@2.0.1
+  - @cosm-changesets/write@0.1.2
 
 ## 2.6.3
 
@@ -690,15 +690,15 @@
 - [`9cdfa36`](https://github.com/changesets/changesets/commit/9cdfa36f831cca2b11593881671410a6d2f0b546) [#318](https://github.com/changesets/changesets/pull/318) Thanks [@Noviny](https://github.com/Noviny)! - Typo fix in prerelease warning message
 
 - Updated dependencies [[`44555b4`](https://github.com/changesets/changesets/commit/44555b44cac843d973d31adbfc7703f45117d204), [`c3cc232`](https://github.com/changesets/changesets/commit/c3cc23204c6cb80487aced1b37ebe8ffde0e2111), [`011d57f`](https://github.com/changesets/changesets/commit/011d57f1edf9e37f75a8bef4f918e72166af096e), [`011d57f`](https://github.com/changesets/changesets/commit/011d57f1edf9e37f75a8bef4f918e72166af096e), [`011d57f`](https://github.com/changesets/changesets/commit/011d57f1edf9e37f75a8bef4f918e72166af096e), [`011d57f`](https://github.com/changesets/changesets/commit/011d57f1edf9e37f75a8bef4f918e72166af096e)]:
-  - @changesets/apply-release-plan@2.0.0
-  - @changesets/assemble-release-plan@2.0.0
-  - @changesets/types@2.0.0
-  - @changesets/get-release-plan@1.0.2
-  - @changesets/config@1.0.2
-  - @changesets/git@1.0.2
-  - @changesets/pre@1.0.2
-  - @changesets/read@0.4.4
-  - @changesets/write@0.1.1
+  - @cosm-changesets/apply-release-plan@2.0.0
+  - @cosm-changesets/assemble-release-plan@2.0.0
+  - @cosm-changesets/types@2.0.0
+  - @cosm-changesets/get-release-plan@1.0.2
+  - @cosm-changesets/config@1.0.2
+  - @cosm-changesets/git@1.0.2
+  - @cosm-changesets/pre@1.0.2
+  - @cosm-changesets/read@0.4.4
+  - @cosm-changesets/write@0.1.1
 
 ## 2.6.2
 
@@ -709,40 +709,40 @@
 - [`b49e1cf`](https://github.com/changesets/changesets/commit/b49e1cff65dca7fe9e341a35aa91704aa0e51cb3) [#306](https://github.com/changesets/changesets/pull/306) Thanks [@Andarist](https://github.com/Andarist)! - Ignore `node_modules` when glob searching for packages. This fixes an issue with package cycles.
 
 - Updated dependencies [[`04ddfd7`](https://github.com/changesets/changesets/commit/04ddfd7c3acbfb84ef9c92873fe7f9dea1f5145c), [`e56928b`](https://github.com/changesets/changesets/commit/e56928bbd6f9096def06ac37487bdbf28efec9d1), [`b49e1cf`](https://github.com/changesets/changesets/commit/b49e1cff65dca7fe9e341a35aa91704aa0e51cb3)]:
-  - @changesets/apply-release-plan@1.0.1
-  - @changesets/assemble-release-plan@1.0.1
-  - @changesets/config@1.0.1
-  - @changesets/errors@0.1.3
-  - @changesets/get-release-plan@1.0.1
-  - @changesets/git@1.0.1
-  - @changesets/logger@0.0.4
-  - @changesets/parse@0.3.3
-  - @changesets/pre@1.0.1
-  - @changesets/read@0.4.3
-  - @changesets/test-utils@0.0.4
-  - @changesets/types@1.0.1
+  - @cosm-changesets/apply-release-plan@1.0.1
+  - @cosm-changesets/assemble-release-plan@1.0.1
+  - @cosm-changesets/config@1.0.1
+  - @cosm-changesets/errors@0.1.3
+  - @cosm-changesets/get-release-plan@1.0.1
+  - @cosm-changesets/git@1.0.1
+  - @cosm-changesets/logger@0.0.4
+  - @cosm-changesets/parse@0.3.3
+  - @cosm-changesets/pre@1.0.1
+  - @cosm-changesets/read@0.4.3
+  - @cosm-changesets/test-utils@0.0.4
+  - @cosm-changesets/types@1.0.1
 
 ## 2.6.1
 
 ### Patch Changes
 
-- [`41e2e3d`](https://github.com/changesets/changesets/commit/41e2e3dd1053ff2f35a1a07e60793c9099f26997) [#292](https://github.com/changesets/changesets/pull/292) Thanks [@acheronfail](https://github.com/acheronfail)! - Use `@changesets/write` for writing changesets internally
+- [`41e2e3d`](https://github.com/changesets/changesets/commit/41e2e3dd1053ff2f35a1a07e60793c9099f26997) [#292](https://github.com/changesets/changesets/pull/292) Thanks [@acheronfail](https://github.com/acheronfail)! - Use `@cosm-changesets/write` for writing changesets internally
 
 - [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20) [#290](https://github.com/changesets/changesets/pull/290) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Use `@manypkg/get-packages` instead of `get-workspaces` internally
 
 - [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20) [#290](https://github.com/changesets/changesets/pull/290) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Don't show `all packages` in list of selected packages in major and minor questions in `add` command after the question is answered
 
 - Updated dependencies [[`41e2e3d`](https://github.com/changesets/changesets/commit/41e2e3dd1053ff2f35a1a07e60793c9099f26997), [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20), [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20), [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20), [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20), [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20), [`2363366`](https://github.com/changesets/changesets/commit/2363366756d1b15bddf6d803911baccfca03cbdf), [`41e2e3d`](https://github.com/changesets/changesets/commit/41e2e3dd1053ff2f35a1a07e60793c9099f26997), [`41e2e3d`](https://github.com/changesets/changesets/commit/41e2e3dd1053ff2f35a1a07e60793c9099f26997), [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20), [`cc8c921`](https://github.com/changesets/changesets/commit/cc8c92143d4c4b7cca8b9917dfc830a40b5cda20)]:
-  - @changesets/types@1.0.0
-  - @changesets/git@1.0.0
-  - @changesets/pre@1.0.0
-  - @changesets/get-release-plan@1.0.0
-  - @changesets/apply-release-plan@1.0.0
-  - @changesets/parse@0.3.2
-  - @changesets/write@0.1.0
-  - @changesets/config@1.0.0
-  - @changesets/assemble-release-plan@1.0.0
-  - @changesets/read@0.4.2
+  - @cosm-changesets/types@1.0.0
+  - @cosm-changesets/git@1.0.0
+  - @cosm-changesets/pre@1.0.0
+  - @cosm-changesets/get-release-plan@1.0.0
+  - @cosm-changesets/apply-release-plan@1.0.0
+  - @cosm-changesets/parse@0.3.2
+  - @cosm-changesets/write@0.1.0
+  - @cosm-changesets/config@1.0.0
+  - @cosm-changesets/assemble-release-plan@1.0.0
+  - @cosm-changesets/read@0.4.2
 
 ## 2.6.0
 
@@ -755,7 +755,7 @@
 - [`2adfe66`](https://github.com/changesets/changesets/commit/2adfe66252f9b8b7a6a0c261f608dcb3c9294bfb) [#288](https://github.com/changesets/changesets/pull/288) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Stop running `npm profile get` when using non-npm registries
 
 - Updated dependencies []:
-  - @changesets/apply-release-plan@0.4.2
+  - @cosm-changesets/apply-release-plan@0.4.2
 
 ## 2.5.2
 
@@ -772,8 +772,8 @@
 - [`1282ef6`](https://github.com/changesets/changesets/commit/1282ef698761c1f634fb409842cc7de6b4d03da4) [#263](https://github.com/changesets/changesets/pull/263) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed a bug where only the unreleased pre-release changesets were taken into account when calculating the new version, not previously released changesets.
 
 - Updated dependencies [[`1282ef6`](https://github.com/changesets/changesets/commit/1282ef698761c1f634fb409842cc7de6b4d03da4)]:
-  - @changesets/assemble-release-plan@0.3.1
-  - @changesets/apply-release-plan@0.4.1
+  - @cosm-changesets/assemble-release-plan@0.3.1
+  - @cosm-changesets/apply-release-plan@0.4.1
 
 ## 2.5.0
 
@@ -793,12 +793,12 @@
 
 - Updated dependencies [[`fe0d9192`](https://github.com/changesets/changesets/commit/fe0d9192544646e1a755202b87dfe850c1c200a3), [`ef6402c9`](https://github.com/changesets/changesets/commit/ef6402c9d8dc1832126732dbbafb015b71f57f83), [`fe0d9192`](https://github.com/changesets/changesets/commit/fe0d9192544646e1a755202b87dfe850c1c200a3), [`503154db`](https://github.com/changesets/changesets/commit/503154db39fe8ab88a1176e4569c48078bcf5569)]:
   - get-workspaces@0.6.0
-  - @changesets/apply-release-plan@0.4.0
+  - @cosm-changesets/apply-release-plan@0.4.0
   - get-dependents-graph@0.2.0
-  - @changesets/get-release-plan@0.4.0
-  - @changesets/git@0.4.0
-  - @changesets/pre@0.2.0
-  - @changesets/read@0.4.1
+  - @cosm-changesets/get-release-plan@0.4.0
+  - @cosm-changesets/git@0.4.0
+  - @cosm-changesets/pre@0.2.0
+  - @cosm-changesets/read@0.4.1
 
 ## 2.4.1
 
@@ -820,11 +820,11 @@
 
 - [`bca8865`](https://github.com/changesets/changesets/commit/bca88652d38caa31e789c4564230ba0b49562ad2) [#221](https://github.com/changesets/changesets/pull/221) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed old changesets not being read in status command
 - Updated dependencies [[`bca8865`](https://github.com/changesets/changesets/commit/bca88652d38caa31e789c4564230ba0b49562ad2), [`bca8865`](https://github.com/changesets/changesets/commit/bca88652d38caa31e789c4564230ba0b49562ad2), [`bca8865`](https://github.com/changesets/changesets/commit/bca88652d38caa31e789c4564230ba0b49562ad2), [`bca8865`](https://github.com/changesets/changesets/commit/bca88652d38caa31e789c4564230ba0b49562ad2)]:
-  - @changesets/get-release-plan@0.3.0
-  - @changesets/read@0.4.0
-  - @changesets/config@0.3.0
-  - @changesets/git@0.3.0
-  - @changesets/apply-release-plan@0.3.1
+  - @cosm-changesets/get-release-plan@0.3.0
+  - @cosm-changesets/read@0.4.0
+  - @cosm-changesets/config@0.3.0
+  - @cosm-changesets/git@0.3.0
+  - @cosm-changesets/apply-release-plan@0.3.1
 
 ## 2.3.3
 
@@ -832,11 +832,11 @@
 
 - [`9cd1eaf`](https://github.com/changesets/changesets/commit/9cd1eafc1620894a39fe10d3e393ad8f812df53a) [#214](https://github.com/changesets/changesets/pull/214) Thanks [@Noviny](https://github.com/Noviny)! - Remove unused dependencies
 - Updated dependencies [[`9cd1eaf`](https://github.com/changesets/changesets/commit/9cd1eafc1620894a39fe10d3e393ad8f812df53a), [`b17ed74`](https://github.com/changesets/changesets/commit/b17ed7411ea57e38b20e646321d5053b213d198a)]:
-  - @changesets/logger@0.0.3
-  - @changesets/pre@0.1.1
-  - @changesets/test-utils@0.0.3
-  - @changesets/git@0.2.5
-  - @changesets/config@0.2.4
+  - @cosm-changesets/logger@0.0.3
+  - @cosm-changesets/pre@0.1.1
+  - @cosm-changesets/test-utils@0.0.3
+  - @cosm-changesets/git@0.2.5
+  - @cosm-changesets/config@0.2.4
 
 ## 2.3.2
 
@@ -862,20 +862,20 @@
 
 - [`8f0a1ef`](https://github.com/changesets/changesets/commit/8f0a1ef327563512f471677ef0ca99d30da009c0) [#183](https://github.com/changesets/changesets/pull/183) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Always publish packages if they don't exist on npm rather than only if they are a greater version than the latest version on npm
 - Updated dependencies [[`8f0a1ef`](https://github.com/changesets/changesets/commit/8f0a1ef327563512f471677ef0ca99d30da009c0), [`8f0a1ef`](https://github.com/changesets/changesets/commit/8f0a1ef327563512f471677ef0ca99d30da009c0), [`8f0a1ef`](https://github.com/changesets/changesets/commit/8f0a1ef327563512f471677ef0ca99d30da009c0), [`8f0a1ef`](https://github.com/changesets/changesets/commit/8f0a1ef327563512f471677ef0ca99d30da009c0), [`8f0a1ef`](https://github.com/changesets/changesets/commit/8f0a1ef327563512f471677ef0ca99d30da009c0)]:
-  - @changesets/assemble-release-plan@0.3.0
-  - @changesets/apply-release-plan@0.3.0
-  - @changesets/get-release-plan@0.2.0
-  - @changesets/types@0.4.0
-  - @changesets/errors@0.1.2
-  - @changesets/pre@0.1.0
-  - @changesets/config@0.2.3
+  - @cosm-changesets/assemble-release-plan@0.3.0
+  - @cosm-changesets/apply-release-plan@0.3.0
+  - @cosm-changesets/get-release-plan@0.2.0
+  - @cosm-changesets/types@0.4.0
+  - @cosm-changesets/errors@0.1.2
+  - @cosm-changesets/pre@0.1.0
+  - @cosm-changesets/config@0.2.3
   - get-dependents-graph@0.1.2
   - get-workspaces@0.5.2
-  - @changesets/git@0.2.4
-  - @changesets/logger@0.0.2
-  - @changesets/parse@0.3.1
-  - @changesets/read@0.3.1
-  - @changesets/test-utils@0.0.2
+  - @cosm-changesets/git@0.2.4
+  - @cosm-changesets/logger@0.0.2
+  - @cosm-changesets/parse@0.3.1
+  - @cosm-changesets/read@0.3.1
+  - @cosm-changesets/test-utils@0.0.2
 
 ## 2.2.0
 
@@ -887,11 +887,11 @@
 
   Now, if a workspace has `publishConfig.access` in its package.json, we will prioritize it over the global changesets config.
 
-- [`51a0d76`](https://github.com/changesets/changesets/commit/51a0d766c7064b4c6a9d1490593522c6fcd02929) [#182](https://github.com/changesets/changesets/pull/182) Thanks [@ajaymathur](https://github.com/ajaymathur)! - Updated the package to use the new `@changesets/logger` for logging.
+- [`51a0d76`](https://github.com/changesets/changesets/commit/51a0d766c7064b4c6a9d1490593522c6fcd02929) [#182](https://github.com/changesets/changesets/pull/182) Thanks [@ajaymathur](https://github.com/ajaymathur)! - Updated the package to use the new `@cosm-changesets/logger` for logging.
 
 ### Patch Changes
 
-- [`5ababa0`](https://github.com/changesets/changesets/commit/5ababa08c8ea5ee3b4ff92253e2e752a5976cd27) [#201](https://github.com/changesets/changesets/pull/201) Thanks [@ajaymathur](https://github.com/ajaymathur)! - Updated to use the Error classes from the @changesets/errors package
+- [`5ababa0`](https://github.com/changesets/changesets/commit/5ababa08c8ea5ee3b4ff92253e2e752a5976cd27) [#201](https://github.com/changesets/changesets/pull/201) Thanks [@ajaymathur](https://github.com/ajaymathur)! - Updated to use the Error classes from the @cosm-changesets/errors package
 
 - [`a679b1d`](https://github.com/changesets/changesets/commit/a679b1dcdcb56652d31536e2d6326ba02a9dfe62) [#204](https://github.com/changesets/changesets/pull/204) Thanks [@Andarist](https://github.com/Andarist)! - Correctly handle the 'access' flag for packages
 
@@ -906,13 +906,13 @@
 - [`da11ab8`](https://github.com/changesets/changesets/commit/da11ab8a4e4324a7023d12f990beec8c3b6ae35f) [#205](https://github.com/changesets/changesets/pull/205) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Don't update ranges set to \*/x/X when versioning
 
 - Updated dependencies [[`51a0d76`](https://github.com/changesets/changesets/commit/51a0d766c7064b4c6a9d1490593522c6fcd02929), [`5ababa0`](https://github.com/changesets/changesets/commit/5ababa08c8ea5ee3b4ff92253e2e752a5976cd27), [`a679b1d`](https://github.com/changesets/changesets/commit/a679b1dcdcb56652d31536e2d6326ba02a9dfe62), [`5ababa0`](https://github.com/changesets/changesets/commit/5ababa08c8ea5ee3b4ff92253e2e752a5976cd27), [`da11ab8`](https://github.com/changesets/changesets/commit/da11ab8a4e4324a7023d12f990beec8c3b6ae35f)]:
-  - @changesets/logger@0.0.1
-  - @changesets/test-utils@0.0.1
-  - @changesets/config@0.2.2
-  - @changesets/apply-release-plan@0.2.3
+  - @cosm-changesets/logger@0.0.1
+  - @cosm-changesets/test-utils@0.0.1
+  - @cosm-changesets/config@0.2.2
+  - @cosm-changesets/apply-release-plan@0.2.3
   - get-workspaces@0.5.1
-  - @changesets/types@0.3.1
-  - @changesets/errors@0.1.1
+  - @cosm-changesets/types@0.3.1
+  - @cosm-changesets/errors@0.1.1
 
 ## 2.1.2
 
@@ -940,9 +940,9 @@
 - [`7e2fc8e`](https://github.com/changesets/changesets/commit/7e2fc8ee58be3be3452358cc7852412fbec0f995) [#184](https://github.com/changesets/changesets/pull/184) Thanks [@Noviny](https://github.com/Noviny)! - Fix message on warning if 'add' command is run before changesets has been initialised.
 
 - Updated dependencies [[`8dce96f`](https://github.com/changesets/changesets/commit/8dce96f8aec43f82b35e65f54b06cbeed3275885)]:
-  - @changesets/parse@0.3.0
-  - @changesets/read@0.3.0
-  - @changesets/get-release-plan@0.1.3
+  - @cosm-changesets/parse@0.3.0
+  - @cosm-changesets/read@0.3.0
+  - @cosm-changesets/get-release-plan@0.1.3
 
 ## 2.0.4
 
@@ -957,8 +957,8 @@
 - [`72babcb`](https://github.com/changesets/changesets/commit/72babcbccbdd41618d9cb90b2a8871fe63643601) [#178](https://github.com/changesets/changesets/pull/178) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fix changelog generator options not being provided
 
 - Updated dependencies [[`72babcb`](https://github.com/changesets/changesets/commit/72babcbccbdd41618d9cb90b2a8871fe63643601)]:
-  - @changesets/apply-release-plan@0.2.2
-  - @changesets/git@0.2.3
+  - @cosm-changesets/apply-release-plan@0.2.2
+  - @cosm-changesets/git@0.2.3
 
 ## 2.0.3
 
@@ -967,9 +967,9 @@
 - [89c0894](https://github.com/changesets/changesets/commit/89c08944fac84f71241305e359e9717ad4ec1b62) [#167](https://github.com/changesets/changesets/pull/167) Thanks [@Noviny](https://github.com/Noviny)! - Fix broken `--since-master` flag (which was broken by the move to v2 changesets)
 
 - Updated dependencies [89c0894]:
-  - @changesets/git@0.2.2
-  - @changesets/get-release-plan@0.1.2
-  - @changesets/read@0.2.2
+  - @cosm-changesets/git@0.2.2
+  - @cosm-changesets/get-release-plan@0.1.2
+  - @cosm-changesets/read@0.2.2
 
 ## 2.0.2
 
@@ -980,15 +980,15 @@
 - [0320391](https://github.com/changesets/changesets/commit/0320391699a73621d0e51ce031062a06cbdefadc) [#163](https://github.com/changesets/changesets/pull/163) Thanks [@Noviny](https://github.com/Noviny)! - Reordered dependencies in the package json (this should have no impact)
 
 - Updated dependencies [3dd003c, 1ff73b7, 8c43fa0, 0320391, 1ff73b7]:
-  - @changesets/get-release-plan@0.1.1
-  - @changesets/apply-release-plan@0.2.1
-  - @changesets/assemble-release-plan@0.2.1
+  - @cosm-changesets/get-release-plan@0.1.1
+  - @cosm-changesets/apply-release-plan@0.2.1
+  - @cosm-changesets/assemble-release-plan@0.2.1
   - get-dependents-graph@0.1.1
-  - @changesets/git@0.2.1
-  - @changesets/parse@0.2.1
-  - @changesets/read@0.2.1
-  - @changesets/types@0.3.0
-  - @changesets/config@0.2.1
+  - @cosm-changesets/git@0.2.1
+  - @cosm-changesets/parse@0.2.1
+  - @cosm-changesets/read@0.2.1
+  - @cosm-changesets/types@0.3.0
+  - @cosm-changesets/config@0.2.1
 
 ## 2.0.1
 
@@ -1039,8 +1039,8 @@ The Changesets config is now written in JSON with fewer options. The new default
 
 ```json
 {
-  "$schema": "https://unpkg.com/@changesets/config/schema.json",
-  "changelog": "@changesets/cli/changelog",
+  "$schema": "https://unpkg.com/@cosm-changesets/config/schema.json",
+  "changelog": "@cosm-changesets/cli/changelog",
   "commit": false,
   "linked": [],
   "access": "private"
@@ -1069,7 +1069,7 @@ simply receive richer information, based on the new changelog format.
 **BREAKING**: The release objects and dependency release objects now use `release.newVersion` for the latest
 version, instead of the previous `release.version`.
 
-The `@changesets/types` package includes exports for both `GetReleaseLine` as well as `GetDependencyReleaseLine`.
+The `@cosm-changesets/types` package includes exports for both `GetReleaseLine` as well as `GetDependencyReleaseLine`.
 
 If you were using the default changelog generation scripts, you won't need to worry. Otherwise, we recommend updating
 your command and manually running `version` to ensure you are still getting the changelogs you expect.
@@ -1100,16 +1100,16 @@ meaning within the community, even though these commands do slightly more than t
 ### Patch Changes
 
 - Updated dependencies [ca8ff585, 296a6731]:
-  - @changesets/get-release-plan@0.1.0
-  - @changesets/apply-release-plan@0.2.0
-  - @changesets/assemble-release-plan@0.2.0
-  - @changesets/config@0.2.0
+  - @cosm-changesets/get-release-plan@0.1.0
+  - @cosm-changesets/apply-release-plan@0.2.0
+  - @cosm-changesets/assemble-release-plan@0.2.0
+  - @cosm-changesets/config@0.2.0
   - get-dependents-graph@0.1.0
   - get-workspaces@0.5.0
-  - @changesets/git@0.2.0
-  - @changesets/parse@0.2.0
-  - @changesets/read@0.2.0
-  - @changesets/types@0.2.0
+  - @cosm-changesets/git@0.2.0
+  - @cosm-changesets/parse@0.2.0
+  - @cosm-changesets/read@0.2.0
+  - @cosm-changesets/types@0.2.0
 
 ## 1.3.3
 

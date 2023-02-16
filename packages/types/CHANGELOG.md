@@ -1,4 +1,4 @@
-# @changesets/types
+# @cosm-changesets/types
 
 ## 5.2.1
 

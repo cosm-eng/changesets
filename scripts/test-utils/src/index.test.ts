@@ -1,4 +1,4 @@
-import { log } from "@changesets/logger";
+import { log } from "@cosm-changesets/logger";
 import { silenceLogsInBlock } from "./";
 
 describe("temporarilySilenceLogs", () => {

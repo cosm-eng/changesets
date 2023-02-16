@@ -1,11 +1,11 @@
-## @changesets/logger
+## @cosm-changesets/logger
 
-[![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@changesets/logger)
+[![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@cosm-changesets/logger)
 
 ### Usage
 
 ```js
-import { error } from '@changesets/logger";
+import { error } from '@cosm-changesets/logger";
 
 error('message part 1', 'message part 2');
 ```
@@ -24,13 +24,13 @@ error('message part 1', 'message part 2');
 
 ### Silencing Messages In Tests
 
-Use the `@changesets/test-utils` package to silence the logs in test cases.
+Use the `@cosm-changesets/test-utils` package to silence the logs in test cases.
 
 For example:
 
 ```js
-import { temporarilySilenceLogs } from "@changesets/test-utils";
-import { log } from "@changesets/logger";
+import { temporarilySilenceLogs } from "@cosm-changesets/test-utils";
+import { log } from "@cosm-changesets/logger";
 
 temporarilySilenceLogs();
 

@@ -2,7 +2,7 @@
  * Shared utility functions and business logic
  */
 import semver from "semver";
-import { VersionType } from "@changesets/types";
+import { VersionType } from "@cosm-changesets/types";
 
 const bumpTypes = ["none", "patch", "minor", "major"];
 
@@ -32,7 +32,7 @@ export function shouldUpdateDependencyBasedOnConfig(
     minReleaseType,
     onlyUpdatePeerDependentsWhenOutOfRange,
   }: {
-    minReleaseType: "patch" | "minor";
+    minReleaseType: "patch" | "minor" | "none";
     onlyUpdatePeerDependentsWhenOutOfRange: boolean;
   }
 ): boolean {
@@ -42,10 +42,12 @@ export function shouldUpdateDependencyBasedOnConfig(
   }
 
   const minLevel = getBumpLevel(minReleaseType);
-  let shouldUpdate = getBumpLevel(release.type) >= minLevel;
+  let shouldUpdate =
+    getBumpLevel(release.type) >= minLevel && minReleaseType !== "none";
 
   if (depType === "peerDependencies") {
-    shouldUpdate = !onlyUpdatePeerDependentsWhenOutOfRange;
+    shouldUpdate =
+      !onlyUpdatePeerDependentsWhenOutOfRange && minReleaseType !== "none";
   }
   return shouldUpdate;
 }

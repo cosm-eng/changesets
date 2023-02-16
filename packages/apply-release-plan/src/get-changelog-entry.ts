@@ -1,6 +1,9 @@
-import { ChangelogFunctions, NewChangesetWithCommit } from "@changesets/types";
+import {
+  ChangelogFunctions,
+  NewChangesetWithCommit,
+} from "@cosm-changesets/types";
 
-import { ModCompWithPackage } from "@changesets/types";
+import { ModCompWithPackage } from "@cosm-changesets/types";
 import startCase from "lodash.startcase";
 import { shouldUpdateDependencyBasedOnConfig } from "./utils";
 
@@ -32,7 +35,7 @@ export default async function getChangelogEntry(
     updateInternalDependencies,
     onlyUpdatePeerDependentsWhenOutOfRange,
   }: {
-    updateInternalDependencies: "patch" | "minor";
+    updateInternalDependencies: "patch" | "minor" | "none";
     onlyUpdatePeerDependentsWhenOutOfRange: boolean;
   }
 ) {

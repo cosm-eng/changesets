@@ -1,5 +1,5 @@
 {
-  "name": "@changesets/git",
+  "name": "@cosm-changesets/git",
   "version": "2.0.0",
   "description": "Some git helpers that changesets use to get information",
   "main": "dist/git.cjs.js",
@@ -7,17 +7,17 @@
   "license": "MIT",
   "repository": "https://github.com/changesets/changesets/tree/main/packages/git",
   "dependencies": {
-    "@babel/runtime": "^7.20.1",
-    "@changesets/errors": "^0.1.4",
-    "@changesets/types": "^5.2.1",
+    "@babel/runtime": "^7.20.13",
+    "@cosm-changesets/errors": "^0.1.4",
+    "@cosm-changesets/types": "^5.2.1",
     "@manypkg/get-packages": "^1.1.3",
-    "is-subdir": "^1.1.1",
-    "micromatch": "^4.0.2",
+    "is-subdir": "^1.2.0",
+    "micromatch": "^4.0.5",
     "spawndamnit": "^2.0.0"
   },
   "devDependencies": {
-    "@changesets/test-utils": "*",
-    "@changesets/write": "*",
+    "@cosm-changesets/test-utils": "^0.0.5",
+    "@cosm-changesets/write": "^0.2.3",
     "file-url": "^3.0.0",
     "fs-extra": "^7.0.1"
   }

@@ -1,8 +1,8 @@
-import { silenceLogsInBlock, testdir } from "@changesets/test-utils";
-import * as git from "@changesets/git";
+import { silenceLogsInBlock, testdir } from "@cosm-changesets/test-utils";
+import * as git from "@cosm-changesets/git";
 import tag from "../index";
 
-jest.mock("@changesets/git");
+jest.mock("@cosm-changesets/git");
 
 describe("tag command", () => {
   silenceLogsInBlock();

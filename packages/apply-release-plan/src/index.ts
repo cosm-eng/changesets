@@ -4,10 +4,10 @@ import {
   ChangelogFunctions,
   NewChangeset,
   ModCompWithPackage,
-} from "@changesets/types";
+} from "@cosm-changesets/types";
 
-import { defaultConfig } from "@changesets/config";
-import * as git from "@changesets/git";
+import { defaultConfig } from "@cosm-changesets/config";
+import * as git from "@cosm-changesets/git";
 import resolveFrom from "resolve-from";
 import { Packages } from "@manypkg/get-packages";
 import detectIndent from "detect-indent";

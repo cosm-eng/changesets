@@ -1,11 +1,11 @@
-import * as logger from "@changesets/logger";
+import * as logger from "@cosm-changesets/logger";
 import chalk from "chalk";
-import { exitPre, enterPre } from "@changesets/pre";
+import { exitPre, enterPre } from "@cosm-changesets/pre";
 import {
   PreExitButNotInPreModeError,
   PreEnterButInPreModeError,
   ExitError,
-} from "@changesets/errors";
+} from "@cosm-changesets/errors";
 
 export default async function pre(
   cwd: string,

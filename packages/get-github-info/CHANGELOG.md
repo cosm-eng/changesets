@@ -1,4 +1,4 @@
-# @changesets/get-github-info
+# @cosm-changesets/get-github-info
 
 ## 0.5.2
 
@@ -111,4 +111,4 @@
 
 ### Minor Changes
 
-- [2e0af049](https://github.com/Noviny/changesets/commit/2e0af049) [#26](https://github.com/Noviny/changesets/pull/26) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Add @changesets/get-github-info package
+- [2e0af049](https://github.com/Noviny/changesets/commit/2e0af049) [#26](https://github.com/Noviny/changesets/pull/26) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Add @cosm-changesets/get-github-info package

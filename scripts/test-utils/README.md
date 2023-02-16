@@ -1,18 +1,18 @@
-## @changesets/test-utils
+## @cosm-changesets/test-utils
 
-> Utilities for testing @changesets/\* packages
+> Utilities for testing @cosm-changesets/\* packages
 
 ### Utilities
 
 #### temporarilySilenceLogs
 
-Silence the logs created but the `@changesets/logger` packages.
+Silence the logs created but the `@cosm-changesets/logger` packages.
 
 **Usage**
 
 ```
 // index.test.ts
-import { temporarilySilenceLogs } from "@changesets/test-utils";
+import { temporarilySilenceLogs } from "@cosm-changesets/test-utils";
 
 temporarilySilenceLogs();
 ```

@@ -9,7 +9,7 @@ const DEPENDENCY_TYPES = [
 
 export type VersionType = "major" | "minor" | "patch" | "none";
 
-export type DependencyType = typeof DEPENDENCY_TYPES[number];
+export type DependencyType = (typeof DEPENDENCY_TYPES)[number];
 
 export type AccessType = "public" | "restricted";
 
@@ -77,7 +77,7 @@ export type Config = {
   /** Features enabled for Private packages */
   privatePackages: PrivatePackages;
   /** The minimum bump type to trigger automatic update of internal dependencies that are part of the same release */
-  updateInternalDependencies: "patch" | "minor";
+  updateInternalDependencies: "patch" | "minor" | "none";
   ignore: ReadonlyArray<string>;
   /** This is supposed to be used with pnpm's `link-workspace-packages: false` and Berry's `enableTransparentWorkspaces: false` */
   bumpVersionsWithWorkspaceProtocolOnly?: boolean;
@@ -107,7 +107,7 @@ export type WrittenConfig = {
         tag?: boolean;
       };
   /** The minimum bump type to trigger automatic update of internal dependencies that are part of the same release */
-  updateInternalDependencies?: "patch" | "minor";
+  updateInternalDependencies?: "patch" | "minor" | "none";
   ignore?: ReadonlyArray<string>;
   bumpVersionsWithWorkspaceProtocolOnly?: boolean;
   snapshot?: {

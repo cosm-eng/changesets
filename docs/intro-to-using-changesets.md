@@ -17,13 +17,13 @@ The second two steps can be made part of a CI process.
 ## Add the changeset tool
 
 ```shell
-npm install @changesets/cli && npx changeset init
+npm install @cosm-changesets/cli && npx changeset init
 ```
 
 or
 
 ```shell
-yarn add @changesets/cli && yarn changeset init
+yarn add @cosm-changesets/cli && yarn changeset init
 ```
 
 ## Adding changesets

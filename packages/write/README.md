@@ -1,15 +1,15 @@
-# @changesets/write
+# @cosm-changesets/write
 
 Writes a changeset to a file.
 
 ```js
-import write from "@changesets/write";
+import write from "@cosm-changesets/write";
 
 const changeset = {
   summary: "A description of a minor change",
   releases: [
-    { name: "@changesets/something", type: "minor" },
-    { name: "@changesets/something-else", type: "patch" },
+    { name: "@cosm-changesets/something", type: "minor" },
+    { name: "@cosm-changesets/something-else", type: "patch" },
   ],
 };
 
@@ -23,8 +23,8 @@ For example, it can convert:
 {
   "summary": "A description of a minor change",
   "releases": [
-    { "name": "@changesets/something", "type": "minor" },
-    { "name": "@changesets/something-else", "type": "patch" }
+    { "name": "@cosm-changesets/something", "type": "minor" },
+    { "name": "@cosm-changesets/something-else", "type": "patch" }
   ]
 }
 ```
@@ -33,8 +33,8 @@ to
 
 ```markdown
 ---
-"@changesets/something": minor
-"@changesets/something-else": patch
+"@cosm-changesets/something": minor
+"@cosm-changesets/something-else": patch
 ---
 
 A description of a minor change

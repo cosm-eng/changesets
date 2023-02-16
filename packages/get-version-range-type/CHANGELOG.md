@@ -1,4 +1,4 @@
-# @changesets/get-version-range-type
+# @cosm-changesets/get-version-range-type
 
 ## 0.3.2
 

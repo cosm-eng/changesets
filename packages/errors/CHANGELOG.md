@@ -1,4 +1,4 @@
-# @changesets/errors
+# @cosm-changesets/errors
 
 ## 0.1.4
 

@@ -1,6 +1,6 @@
-import * as git from "@changesets/git";
+import * as git from "@cosm-changesets/git";
 import { getPackages } from "@manypkg/get-packages";
-import { log } from "@changesets/logger";
+import { log } from "@cosm-changesets/logger";
 
 export default async function run(cwd: string) {
   const { packages, tool } = await getPackages(cwd);

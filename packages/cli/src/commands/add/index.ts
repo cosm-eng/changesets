@@ -3,11 +3,11 @@ import path from "path";
 import { spawn } from "child_process";
 
 import * as cli from "../../utils/cli-utilities";
-import * as git from "@changesets/git";
-import { info, log, warn } from "@changesets/logger";
-import { Config } from "@changesets/types";
+import * as git from "@cosm-changesets/git";
+import { info, log, warn } from "@cosm-changesets/logger";
+import { Config } from "@cosm-changesets/types";
 import { getPackages } from "@manypkg/get-packages";
-import writeChangeset from "@changesets/write";
+import writeChangeset from "@cosm-changesets/write";
 
 import { getCommitFunctions } from "../../commit/getCommitFunctions";
 import createChangeset from "./createChangeset";

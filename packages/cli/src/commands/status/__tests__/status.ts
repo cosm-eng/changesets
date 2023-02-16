@@ -1,8 +1,8 @@
-import { defaultConfig } from "@changesets/config";
-import * as git from "@changesets/git";
-import { gitdir, silenceLogsInBlock } from "@changesets/test-utils";
-import { ReleasePlan } from "@changesets/types";
-import writeChangeset from "@changesets/write";
+import { defaultConfig } from "@cosm-changesets/config";
+import * as git from "@cosm-changesets/git";
+import { gitdir, silenceLogsInBlock } from "@cosm-changesets/test-utils";
+import { ReleasePlan } from "@cosm-changesets/types";
+import writeChangeset from "@cosm-changesets/write";
 import fs from "fs-extra";
 import path from "path";
 import spawn from "spawndamnit";

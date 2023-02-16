@@ -1,6 +1,6 @@
 import meow from "meow";
-import { ExitError, InternalError } from "@changesets/errors";
-import { error } from "@changesets/logger";
+import { ExitError, InternalError } from "@cosm-changesets/errors";
+import { error } from "@cosm-changesets/logger";
 import { format } from "util";
 import { run } from "./run";
 
@@ -82,9 +82,9 @@ ${format("", err).replace(process.cwd(), "<cwd>")}
 
 ## Versions
 
-- @changesets/cli@${
+- @cosm-changesets/cli@${
         // eslint-disable-next-line import/no-extraneous-dependencies
-        require("@changesets/cli/package.json").version
+        require("@cosm-changesets/cli/package.json").version
       }
 - node@${process.version}
 

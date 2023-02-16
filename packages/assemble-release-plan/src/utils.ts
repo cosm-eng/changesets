@@ -1,4 +1,4 @@
-import { PackageGroup, VersionType } from "@changesets/types";
+import { PackageGroup, VersionType } from "@cosm-changesets/types";
 import { Package } from "@manypkg/get-packages";
 import semver from "semver";
 import { InternalRelease } from "./types";

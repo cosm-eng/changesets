@@ -3,10 +3,10 @@ import chalk from "chalk";
 import semver from "semver";
 
 import * as cli from "../../utils/cli-utilities";
-import { error, log } from "@changesets/logger";
-import { Release, PackageJSON } from "@changesets/types";
+import { error, log } from "@cosm-changesets/logger";
+import { Release, PackageJSON } from "@cosm-changesets/types";
 import { Package } from "@manypkg/get-packages";
-import { ExitError } from "@changesets/errors";
+import { ExitError } from "@cosm-changesets/errors";
 
 const { green, yellow, red, bold, blue, cyan } = chalk;
 

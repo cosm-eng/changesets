@@ -1,11 +1,11 @@
-# @changesets/config
+# @cosm-changesets/config
 
 > Utilities for reading and parsing Changeset's config
 
-[![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@changesets/config)
+[![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@cosm-changesets/config)
 
 ```tsx
-import { parse, read, ValidationError } from "@changesets/config";
+import { parse, read, ValidationError } from "@cosm-changesets/config";
 
 let config = await read(process.cwd(), workspaces);
 

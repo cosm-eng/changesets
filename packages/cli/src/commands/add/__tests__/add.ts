@@ -1,9 +1,9 @@
 import path from "path";
 import stripAnsi from "strip-ansi";
-import * as git from "@changesets/git";
-import { defaultConfig } from "@changesets/config";
-import { silenceLogsInBlock, testdir } from "@changesets/test-utils";
-import writeChangeset from "@changesets/write";
+import * as git from "@cosm-changesets/git";
+import { defaultConfig } from "@cosm-changesets/config";
+import { silenceLogsInBlock, testdir } from "@cosm-changesets/test-utils";
+import writeChangeset from "@cosm-changesets/write";
 
 import {
   askCheckboxPlus,
@@ -15,8 +15,8 @@ import {
 import addChangeset from "..";
 
 jest.mock("../../../utils/cli-utilities");
-jest.mock("@changesets/git");
-jest.mock("@changesets/write");
+jest.mock("@cosm-changesets/git");
+jest.mock("@cosm-changesets/write");
 // @ts-ignore
 writeChangeset.mockImplementation(() => Promise.resolve("abcdefg"));
 // @ts-ignore

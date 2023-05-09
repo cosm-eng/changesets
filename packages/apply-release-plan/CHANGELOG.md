@@ -4,7 +4,7 @@
 
 ### Minor Changes
 
-- Updated behavior when includeInternalDependencies is set to false
+- Updated behavior when includeInternalDependencies is set to "none"
 
 ## 6.1.3
 

@@ -1,5 +1,12 @@
 # @cosm-changesets/cli
 
+## 2.26.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @cosm-changesets/apply-release-plan@6.2.0
+
 ## 2.26.0
 
 ### Minor Changes

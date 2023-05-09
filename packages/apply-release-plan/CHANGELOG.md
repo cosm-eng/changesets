@@ -1,5 +1,11 @@
 # @cosm-changesets/apply-release-plan
 
+## 6.2.0
+
+### Minor Changes
+
+- Updated behavior when includeInternalDependencies is set to "none"
+
 ## 6.1.3
 
 ### Patch Changes

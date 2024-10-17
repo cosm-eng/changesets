@@ -32,7 +32,7 @@
   "dependencies": {
     "@babel/runtime": "^7.20.13",
     "@cosm-changesets/apply-release-plan": "^6.2.0",
-    "@cosm-changesets/assemble-release-plan": "^5.2.3",
+    "@cosm-changesets/assemble-release-plan": "file:../assemble-release-plan",
     "@cosm-changesets/changelog-git": "^0.1.14",
     "@cosm-changesets/config": "^2.3.0",
     "@cosm-changesets/errors": "^0.1.4",

@@ -1,5 +1,11 @@
 # @cosm-changesets/assemble-release-plan
 
+## 5.3.0
+
+### Minor Changes
+
+- [`06cf40e`](https://github.com/changesets/changesets/commit/06cf40ea4afaa032ade0c625294f3dcf6e08f312) Thanks [@jamesloosli](https://github.com/jamesloosli)! - PE-1329 skip dependency resolution when updateInternalDependencies is set to none
+
 ## 5.2.3
 
 ### Patch Changes

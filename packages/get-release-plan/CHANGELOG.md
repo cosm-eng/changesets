@@ -1,5 +1,12 @@
 # @cosm-changesets/get-release-plan
 
+## 3.0.17
+
+### Patch Changes
+
+- Updated dependencies [[`06cf40e`](https://github.com/changesets/changesets/commit/06cf40ea4afaa032ade0c625294f3dcf6e08f312)]:
+  - @cosm-changesets/assemble-release-plan@5.3.0
+
 ## 3.0.16
 
 ### Patch Changes

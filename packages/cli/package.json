@@ -1,6 +1,6 @@
 {
   "name": "@cosm-changesets/cli",
-  "version": "2.26.1",
+  "version": "2.27.0",
   "description": "Organise your package versioning and publishing to make both contributors and maintainers happy",
   "bin": {
     "changeset": "bin.js"

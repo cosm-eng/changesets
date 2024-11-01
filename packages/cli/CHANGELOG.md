@@ -1,5 +1,11 @@
 # @cosm-changesets/cli
 
+## 2.27.0
+
+### Minor Changes
+
+- [`5df6cc3`](https://github.com/changesets/changesets/commit/5df6cc3248f8d16a92747e0cd7b284455209b309) Thanks [@labmorales](https://github.com/labmorales)! - Adding the since attribute to the add command
+
 ## 2.26.1
 
 ### Patch Changes
